@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="#0F172A">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Angel Optimizaciones BETA2 REAL" android:textSize="20sp" android:textColor="#FFFFFF" android:textStyle="bold" android:gravity="center" android:layout_marginTop="20dp"/>
+    <TextView android:id="@+id/txtResultado" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Listo para limpieza REAL" android:textColor="#94A3B8" android:gravity="center" android:layout_marginTop="16dp"/>
+    <Button android:id="@+id/btnLimpiar" android:layout_width="match_parent" android:layout_height="60dp" android:text="🚀 LIMPIEZA REAL" android:layout_marginTop="24dp" android:backgroundTint="#3B82F6"/>
+    <Button android:id="@+id/btnLimpiarJuegos" android:layout_width="match_parent" android:layout_height="60dp" android:text="🎮 LIMPIAR JUEGOS PESADOS" android:layout_marginTop="12dp" android:backgroundTint="#10B981"/>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="20dp" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+</LinearLayout>
